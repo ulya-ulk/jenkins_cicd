@@ -4,8 +4,8 @@ pipeline {
     }
     
 
-    	environment {
-            envString = 'true'
+    environment {
+        envString = 'true'
 		
 	}
 
