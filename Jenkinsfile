@@ -25,12 +25,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/ulya-ulk/jenkins_cicd.git'
-            }
-        }
-        
         stage('Build test base') {
             steps {
                 bat "echo Build test base"
